@@ -9,12 +9,13 @@
     --color-light: #f8f9fa;
     --color-black: #0f0f11;
     --color-dark: #1a1a1c;
-    --color-purple: #7c3aed;
-    --color-purple-hover: #6d28d9;
+    --color-purple: #6100ff;
+    --color-purple-hover: #8000ff;
     --color-gray: #6c757d;
     --color-border: #e9ecef;
     
     --font-primary: 'Inter', sans-serif;
+    --font-heading: 'Outfit', sans-serif;
     
     --transition-fast: 0.2s ease;
     --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -74,8 +75,9 @@ body {
 }
 
 .section-header h2 {
+    font-family: var(--font-heading);
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -0.5px;
     margin-bottom: 0.5rem;
@@ -208,8 +210,9 @@ body {
 }
 
 .headline {
+    font-family: var(--font-heading);
     font-size: clamp(3rem, 6vw, 5rem);
-    font-weight: 800;
+    font-weight: 900;
     line-height: 1.1;
     letter-spacing: -2px;
     margin-bottom: 1.5rem;
@@ -244,8 +247,9 @@ body {
 }
 
 .text-content h2 {
+    font-family: var(--font-heading);
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 1.5rem;
     line-height: 1.2;
     text-transform: uppercase;
@@ -301,6 +305,7 @@ body {
 }
 
 .about-card h3 {
+    font-family: var(--font-heading);
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: var(--color-purple);
@@ -363,14 +368,16 @@ body {
 }
 
 .card-header h3 {
+    font-family: var(--font-heading);
     font-size: 1.25rem;
     color: var(--color-gray);
     margin-bottom: 0.5rem;
 }
 
 .price {
+    font-family: var(--font-heading);
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--color-black);
 }
 
@@ -396,8 +403,9 @@ body {
 
 /* Lead Magnet Section */
 .lead-magnet-section h2 {
+    font-family: var(--font-heading);
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 1rem;
 }
 
@@ -451,8 +459,9 @@ body {
 }
 
 .footer-brand h2 {
+    font-family: var(--font-heading);
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 0.5rem;
 }
 
